@@ -44,7 +44,7 @@ library(lubridate)
 ```
 
 ```r
-opts_chunk$set(echo = TRUE, results = "asis")
+opts_chunk$set(echo = TRUE)
 ```
 
 File zip verification. If the zip file exist, unzip it and read the data:

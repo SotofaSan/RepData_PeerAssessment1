@@ -140,7 +140,7 @@ library(dplyr)</code></pre>
 <pre><code>## The following object is masked from 'package:base':
 ## 
 ##     date</code></pre>
-<pre class="r"><code>opts_chunk$set(echo = TRUE, results = &quot;asis&quot;)</code></pre>
+<pre class="r"><code>opts_chunk$set(echo = TRUE)</code></pre>
 <p>File zip verification. If the zip file exist, unzip it and read the data:</p>
 <pre class="r"><code>if(file.exists(&quot;activity.zip&quot;)){
     activity &lt;- read.csv(unzip(&quot;activity.zip&quot;))
